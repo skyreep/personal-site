@@ -51,7 +51,7 @@ img.profile {
     justify-content: center;
     align-items: center;
     background-color: #e6ecf3;
-    color: rgb(15, 61, 92);
+    color: rgb(0, 66, 110);
     font-weight: 700;
     padding: 0px;
 }
@@ -74,7 +74,7 @@ img.profile {
 .hello-world {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(13, 53, 80);
+    background-color: rgb(0, 66, 110);
     padding-top: 1rem;
     padding-left: 7vw;
     padding-right: 7vw;
@@ -125,7 +125,7 @@ img.profile {
 .profile-bckgrnd {
     height: 100vh;
     width: auto;
-    background-color: rgb(13, 53, 80);
+    background-color: rgb(0, 66, 110);
     padding-left: 6vw;
     padding-right: 6vw;
     padding-top: 5rem;;
@@ -148,7 +148,7 @@ img.profile {
 .contact-bckgrnd {
     height: auto;
     width: auto;
-    background-color: rgb(15, 61, 92);
+    background-color: rgb(0, 66, 110);
     padding-top: 3rem;
     padding-left: 3vw;
     padding-right: 3vw;
@@ -324,7 +324,7 @@ form h3 {
 }
 
 .submit-btn {
-    background-color: rgb(15, 61, 92);
+    background-color: rgb(0, 66, 110);
     color: white;
     margin-top: 2vh;
     transition: all .2s ease-in-out;
