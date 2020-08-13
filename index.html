@@ -17,31 +17,37 @@
   </head>
     
 
-  <body>
-    <nav class="fixed-top">
+  <body data-spy="scroll" data-target="#main-nav">
+    <nav id="main-nav" class="fixed-top">
       <div class="fluid-container">
         <div class="row">
-          <div class="col nav-btn">
-            <a role="button" class="btn btn-light lg-nav-button" href="#">ABOUT<br><i class="fas fa-address-card"></i></a>
+          <div class="col nav-btn nav">
+            <a role="button" class="btn btn-light lg-nav-button nav nav-link" href="#about">ABOUT<br><i class="fas fa-address-card"></i></a>
           </div>
           <div class="col nav-btn">
-            <a role="button" class="btn btn-light lg-nav-button" href="#projects">PROJECTS<br><i class="fas fa-code"></i></a>
+            <a role="button" class="btn btn-light lg-nav-button nav nav-link" href="#projects">PROJECTS<br><i class="fas fa-code"></i></a>
           </div>
           <div class="col nav-btn">
-            <a role="button" class="btn btn-light lg-nav-button" href="#resume">RESUME<br><i class="fas fa-briefcase"></i></a>
+            <a role="button" class="btn btn-light lg-nav-button nav nav-link" href="#resume">RESUME<br><i class="fas fa-briefcase"></i></a>
           </div>
           <div class="col nav-btn">
-            <a role="button" class="btn btn-light lg-nav-button" href="#contact">CONTACT<br><i class="fas fa-envelope-open-text"></i></a>
+            <a role="button" class="btn btn-light lg-nav-button nav nav-link" href="#contact">CONTACT<br><i class="fas fa-envelope-open-text"></i></a>
           </div>
         </div>
         
       </div>
     </nav>
 
+    <div class="hello-world">
+      <span class="typewrite-effect typewriter-main">Skyler Reep.</span>
+      <br>
+      <a href="#about"><i class="fas fa-chevron-circle-down"></i></a>
+    </div>
+
+
     <div id="about" class="profile-bckgrnd">
       <div class="jumbotron">
           <img class="profile" src="./images/profilepic.jpg" alt="profile picture">
-          <h1>Skyler Reep</h1>
           <h2>Software and Web Application Developer</h2>
           <br>
           <h3>About Me</h3>
@@ -53,9 +59,9 @@
     </div>
 
     <div id="projects" class="project-bckgrnd">
-      <h3 class="page-head">Projects<br><i class="fas fa-chevron-circle-down"></i></h3>
+      <h3 class="page-head">Projects<br><a href="#project-cards"><i class="fas fa-chevron-circle-down"></i></a></h3>
       
-      <div class="card-deck">
+      <div id="project-cards" class="card-deck">
         <div class="card">
           <a href="http://ccuresearch.coastal.edu/sgreep/csci303fa19/forms/index.php"><img src="./images/Screen Shot 2020-08-11 at 9.41.07 AM.png" class="card-img-top" alt="..."></a>
           <div class="card-body">
@@ -105,8 +111,8 @@
     
 
     <div id="resume" class="resume-bckgrnd">
-      <h3 class="page-head">Resume<br><i class="fas fa-chevron-circle-down"></i></h3>
-      <div class="resume-text">
+      <h3 class="page-head">Resume<br><a href="#resume-content"><i class="fas fa-chevron-circle-down"></i></a></h3>
+      <div id="resume-content" class="resume-text">
         <h3>Skyler Reep</h3>
         <p>Software and Web Application Developer<br>(843) 333-4693<br>skyreep@gmail.com</p>
         <h4>Skills</h4>
@@ -121,7 +127,7 @@
         <ul>
           <li><strong>Relevant Coursework: </strong>Systems Analysis & Software Engineering, Project Management, Web Interface Development, Information Systems Security, Server-Side Web App Development, Data Structures</li>
           <br>
-          <li><strong>Awards: </strong>President’s List Fall 2017, Dean’s List Spring 2018, Google Developer Scholarship Spring 2018, President’s List Spring 2019, Dean's List Spring 2020</li>
+          <li><strong>Awards: </strong>President’s List Fall 2017 and Spring 2019, Dean’s List Spring 2018 and Spring 2020, Google Developer Scholarship Spring 2018</li>
           <br>
           <li><strong>Extracurriculars: </strong>Association for Computing Machinery, B-Sides Charleston security conferences & workshops, VR gaming & development (Unity), dog training, kayaking</li>
         </ul>
@@ -156,9 +162,9 @@
     
     <div id="contact" class="contact-bckgrnd">
       <div>
-        <h3 class="page-head">Get In Touch<br><i class="fas fa-chevron-circle-down"></i></h3>
+        <h3 class="page-head">Get In Touch<br><a href="#contact-form"><i class="fas fa-chevron-circle-down"></i></a></h3>
       </div>
-      <form action="">
+      <form id="contact-form" action="">
         <h3>Contact</h3>
         <div class="form-group row">
           <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Name</label>
@@ -169,14 +175,15 @@
         <div class="form-group row">
           <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="username@emailprovider.com">
+            <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="username@email.com">
           </div>
         </div>
+        <br>
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button class="btn btn-light" type="submit">Submit</button>
+        <button class="btn btn-light submit-btn" type="submit">Submit</button>
       </form>
     </div>
 
