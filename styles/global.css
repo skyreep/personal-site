@@ -339,11 +339,11 @@ form h3 {
     background-color: #e6ecf3 !important;
 }
 
-a {
+.fa-chevron-circle-down {
     text-decoration: none;
     color: #e6ecf3;
 }
-a :hover {
+.fa-chevron-circle-down :hover {
     text-decoration: none;
     color: #e6ecf3;
 }
