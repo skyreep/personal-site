@@ -80,10 +80,11 @@ form h3 {
     font-weight: 700;
     padding: 0px;
 }
-
-.lg-nav-button:hover {
-    background-color: #ffffff;
-    color: #ee9818;
+@media(hover: hover) and (pointer: fine) {
+    .lg-nav-button:hover {
+        background-color: #ffffff;
+        color: #ee9818;
+    }
 }
 
 .lg-nav-button .fas {
@@ -174,12 +175,14 @@ form h3 {
     text-decoration: none;
     color: #e6ecf3;
 }
-
-.fa-chevron-circle-down:hover {
-    transform: scale(1.1);
-    text-decoration: none;
-    color: #e6ecf3;
+@media(hover: hover) and (pointer: fine) {
+    .fa-chevron-circle-down:hover {
+        transform: scale(1.1);
+        text-decoration: none;
+        color: #e6ecf3;
+    }
 }
+
 /* End Section Headings and Icons */
 
 
@@ -320,13 +323,16 @@ img.profile {
     -moz-box-shadow: 2px 2px 8px 1px rgba(5,5,5,0.65);
     box-shadow: 2px 2px 8px 1px rgba(5,5,5,0.65);
 }
-.pdf-dl-btn:hover {
-    transform: scale(1.1);
-    background-color: #e6ecf3;
-    -webkit-box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
-    -moz-box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
-    box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
+@media(hover: hover) and (pointer: fine) {
+    .pdf-dl-btn:hover {
+        transform: scale(1.1);
+        background-color: #e6ecf3;
+        -webkit-box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
+        -moz-box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
+        box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
+    }
 }
+
 
 .resume-bckgrnd p {
     font-size: 1rem;
@@ -369,22 +375,24 @@ img.profile {
     margin-bottom: 3rem;
     transition: all .2s ease-in-out;
 }
-
-.contact-btn:hover {
-    transform: scale(1.1);
-    text-decoration: none;
-    color: #e6ecf3;
+@media(hover: hover) and (pointer: fine) {
+    .contact-btn:hover {
+        transform: scale(1.1);
+        text-decoration: none;
+        color: #e6ecf3;
+    }
 }
-
 .submit-btn {
     background-color: rgb(0, 66, 110);
     color: white;
     margin-top: 2vh;
     transition: all .2s ease-in-out;
 }
-.submit-btn:hover {
-    background-color: #ee9818;
-    transform: scale(1.1);
+@media(hover: hover) and (pointer: fine) {
+    .submit-btn:hover {
+        background-color: #ee9818;
+        transform: scale(1.1);
+    }
 }
 
 .tagline {
