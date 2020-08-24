@@ -75,14 +75,14 @@ form h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #e6ecf3;
-    color: rgb(0, 66, 110);
+    background-color: #e6ecf3 !important;
+    color: rgb(0, 66, 110) !important;
     font-weight: 700;
     padding: 0px;
 }
 @media(hover: hover) and (pointer: fine) {
     .lg-nav-button:hover {
-        background-color: #ffffff;
+        background-color: #ffffff !important;
         color: #ee9818;
     }
 }
