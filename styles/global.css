@@ -84,7 +84,7 @@ form h3 {
 }
 @media(hover: hover) and (pointer: fine) {
     .lg-nav-button:hover {
-        background-color: #c9dcf1 !important;
+        background-color: #d2e6fc !important;
         color: #ffffff;
     }
 }
