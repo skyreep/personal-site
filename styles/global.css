@@ -25,7 +25,7 @@ h3 {
 }
 
 p {
-    font-size: 2vh;
+    font-size: 1.8vh;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -84,8 +84,8 @@ form h3 {
 }
 @media(hover: hover) and (pointer: fine) {
     .lg-nav-button:hover {
-        background-color: #d2e6fc !important;
-        color: #ffffff;
+        background-color: #05183f !important;
+        color: #ffffff !important;
     }
 }
 
@@ -322,7 +322,8 @@ img.profile {
 @media(hover: hover) and (pointer: fine) {
     .pdf-dl-btn:hover {
         transform: scale(1.1);
-        background-color: #e6ecf3;
+        background-color: #e6ecf3 !important;
+        color: #0B0021 !important;
         -webkit-box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
         -moz-box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
         box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
