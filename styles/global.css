@@ -6,21 +6,21 @@ body {
 
 h1 {
     font-size: 5vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
 
 }
 
 h2 {
     font-size: 3.5vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     padding-top: 3vh;
 }
 
 h3 {
     font-size: 3vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
@@ -67,6 +67,8 @@ form h3 {
 
 .lg-nav-button {
     font-size: 1.5vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     width: 100%;
     border-width: 0px;
     border-radius: 0%;
@@ -82,8 +84,8 @@ form h3 {
 }
 @media(hover: hover) and (pointer: fine) {
     .lg-nav-button:hover {
-        background-color: #ffffff !important;
-        color: #ee9818;
+        background-color: #c9dcf1 !important;
+        color: #ffffff;
     }
 }
 
@@ -99,8 +101,8 @@ form h3 {
 }
 
 .active {
-    color: #ee9818 !important;
-    background-color: #dae5ee !important;
+    color: #ffffff !important;
+    background-color:  rgb(0, 66, 110)!important;
 }
 /* End Navigation Bar */
 
@@ -129,8 +131,8 @@ form h3 {
 
 .typewriter-main {
     border-right: .05em solid orange;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 15vw;
     
 }
@@ -277,18 +279,12 @@ img.profile {
     padding-bottom: 3rem;
 }
 
-.resume-text {
-    color: #0B0021;
+.resume-preview {
     background-color: #e6ecf3;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 5%;
-    padding-right: 5%;
     -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.39);
     -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.39);
     box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.39);
-    max-width: 62.5rem;
-    display: inline-flex;
+    /* display: inline-flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
