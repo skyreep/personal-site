@@ -182,10 +182,6 @@ form h3 {
 
 
 /* Profile */
-#about-snap {
-    /* margin-top: 5rem; */
-}
-
 .jumbotron {
     height: auto;
     padding-top: 5rem;
@@ -259,8 +255,8 @@ img.profile {
     font-size: 1rem;
 }
 
-.work-history {
-    text-align: left;
+.card-deck {
+    padding-top: 10rem;
 }
 /* End Project Section */
 
