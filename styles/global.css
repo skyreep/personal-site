@@ -5,10 +5,10 @@ body {
 }
 
 h1 {
-    font-size: 5vh;
+    border-right: .05em solid orange;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-
+    font-weight: 400;
+    font-size: 15vw;
 }
 
 h2 {
@@ -111,7 +111,7 @@ form h3 {
 .hello-world {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(0, 66, 110);
+    background-color: #00426e;
     padding-top: 1rem;
     padding-left: 7vw;
     padding-right: 7vw;
@@ -129,13 +129,6 @@ form h3 {
     font-size: 6vh;
 }
 
-.typewriter-main {
-    border-right: .05em solid orange;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 15vw;
-    
-}
 
 .typewrite-effect {
     overflow: hidden;
@@ -189,6 +182,10 @@ form h3 {
 
 
 /* Profile */
+#about-snap {
+    /* margin-top: 5rem; */
+}
+
 .jumbotron {
     height: auto;
     padding-top: 5rem;
@@ -217,7 +214,8 @@ img.profile {
     background-color: rgb(0, 66, 110);
     padding-left: 6vw;
     padding-right: 6vw;
-    padding-top: 5rem;;
+    padding-top: 32rem;
+    padding-bottom: 25rem;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
@@ -290,18 +288,8 @@ img.profile {
     align-items: center;
 }
 
-.resume-text h3 {
-    font-size: 2rem;
-    font-weight: 700;
-    padding-top: 3rem;
-}
-
-.resume-text h4 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-
+#resume-snap {
+    padding-bottom: 5rem;
 }
 
 .pdf-dl-btn {
@@ -328,20 +316,6 @@ img.profile {
         -moz-box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
         box-shadow: 0px 0px 16px 1px rgba(193,206,217,1);
     }
-}
-
-
-.resume-bckgrnd p {
-    font-size: 1rem;
-    padding-top: 0.5rem;
-}
-
-.skills {
-    text-align: left;
-}
-
-.work-history {
-    text-align: left;
 }
 
 /* End Resume Section */
@@ -384,11 +358,23 @@ img.profile {
     color: white;
     margin-top: 2vh;
     transition: all .2s ease-in-out;
+    margin-bottom: 2rem;
 }
 @media(hover: hover) and (pointer: fine) {
     .submit-btn:hover {
         background-color: #ee9818;
         transform: scale(1.1);
+    }
+}
+
+.business-card {
+    -webkit-box-shadow: 0px 0px 27px -6px rgba(0,0,0,0.31); 
+    box-shadow: 0px 0px 27px -6px rgba(0,0,0,0.31);
+    transition: all .2s ease-in-out;
+}
+@media(hover: hover) and (pointer: fine) {
+    .business-card:hover {
+        transform: scale(1.02);
     }
 }
 

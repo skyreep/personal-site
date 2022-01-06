@@ -71,23 +71,23 @@
 
     <!-- Typewriter Title -->
     <div class="hello-world">
-      <span class="typewrite-effect typewriter-main">Skyler Reep</span>
+      <span class="typewrite-effect"><h1>Skyler Reep</h1></span>
       <br>
       <a href="#about"><i class="fas fa-chevron-circle-down"></i></a>
     </div>
 
     <!-- About Section -->
     <div id="about" class="profile-bckgrnd">
-      <div class="jumbotron">
-          <img class="profile" src="./images/profile_pic.png" alt="profile picture">
-          <h2>It's nice to meet you.</h2>
-          <br>
-          <h3>About Me</h3>
-          <p>I am a recent B.Sc. Information Systems graduate from Coastal Carolina University. Currently working as an assistant to senior leadership in the virtual reality game production industry, <strong>I am seeking
-             opportunities to grow my software engineering experience whilst working towards my Master’s degree</strong>. I have been 
-              programming in various coding laguages for 5 years, and enjoy continually pushing myself to learn and develop with new technologies. My interests include 
-            full-stack web app development with a focus on accesible, responsive UI design. Additionally I enjoy researching information security, and virtual reality development. In my spare time I make pottery, and model satisfying physics simulations with Blender.</p>
-      </div>
+        <div class="jumbotron">
+            <img class="profile" src="./images/profile_pic.png" alt="profile picture">
+            <h2>It's nice to meet you.</h2>
+            <br>
+            <h3>About Me</h3>
+            <p>I am a recent B.Sc. Information Systems graduate from Coastal Carolina University. Currently working as an assistant to senior leadership in the virtual reality game production industry, <strong>I am seeking
+              opportunities to grow my software engineering experience whilst working towards my Master’s degree</strong>. I have been 
+                programming in various coding laguages for 5 years, and enjoy continually pushing myself to learn and develop with new tehcnologies (currently studying AWS). My interests include 
+              full-stack web app development with a focus on accesible, responsive UI design. Additionally I enjoy researching information security, and virtual reality development. In my spare time I make pottery, participate in CTF's, and animate satisfying physics simulations with Blender.</p>
+        </div>
     </div>
 
     <!-- Projects Sections -->
@@ -144,54 +144,17 @@
     
 
     <!-- Resume Section -->
+    
     <div id="resume" class="resume-bckgrnd">
-      <h3 class="page-head">Resume<br><a href="#resume-preview"><i class="fas fa-chevron-circle-down"></i></a></h3>
+      <h3 class="page-head">Resume<br><a href="#resume-snap"><i class="fas fa-chevron-circle-down"></i></a></h3>
+      <div id="resume-snap"></div>
       <div id="resume-preview">
         <a href="https://drive.google.com/file/d/1gc_YH5AqCUJN00ClbrKkPwO4j0GcAB3t/view?usp=sharing" target="_blank"><img src="./images/resume-preview.png" class="img-fluid" alt='Resume preview thumbnail'></a>
       </div>
       <br>
-
       <!-- PDF Download -->
       <a href="./assets/SkylerReep_Resume.pdf" role="button" class="btn btn-light lg-nav-button pdf-dl-btn" download="SkylerReep_Resume.pdf" target="_blank"><i class="far fa-file-pdf fa-3x pdf-btn"></i></a>
       <p style="color: #FFFFFF;"><strong>DOWNLOAD</strong></p>
-
-
-
-      <!--Modal: Name-->
-    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-
-        <!--Content-->
-        <div class="modal-content">
-
-          <!--Body-->
-          <div class="modal-body mb-0 p-0">
-
-            <a href="https://drive.google.com/file/d/1gc_YH5AqCUJN00ClbrKkPwO4j0GcAB3t/view?usp=sharing" target="_blank"><img src="./images/resume-preview.png" class="img-fluid" alt='Resume preview thumbnail'></a>
-
-          </div>
-
-          <!--Footer-->
-          <div class="modal-footer justify-content-center">
-            <span class="mr-4">Spread the word!</span>
-            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
-            <!--Twitter-->
-            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
-            <!--Google +-->
-            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
-            <!--Linkedin-->
-            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
-
-            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
-
-          </div>
-
-        </div>
-        <!--/.Content-->
-
-      </div>
-    </div>
-    <!--Modal: Name-->
     </div>
     
     <!-- Contact Section -->
@@ -201,6 +164,7 @@
       </div>
       <form id="contact-form" method="POST" name="EmailFrom" action="https://formspree.io/xzbjqwyv">
         <h3>Contact</h3>
+        <p>Send me an email using the form below</p>
         <fieldset id="fs-frm-inputs">
           <div class="form-group row">
             <label for="full-name" class="col-sm-2 col-form-label col-form-label-lg">Name</label>
@@ -222,6 +186,12 @@
           </div>
       </fieldset>
         <button class="btn btn-light submit-btn" type="submit">Submit</button>
+        
+        <hr>
+        <br>
+        <p><strong>Prefer a different method?</strong><br>Here's my card</p>
+        <img src="./assets/card.png" class="business-card img-fluid" alt="Image of Skyler Reep's business card">
+        <br>
       </form>
 
       <footer>
