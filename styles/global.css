@@ -322,6 +322,10 @@ img.profile {
 
 
 /* Contact Section */
+#contact-snap {
+    padding-top: 5rem;
+}
+
 .contact-bckgrnd {
     height: auto;
     width: auto;
